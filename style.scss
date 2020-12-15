@@ -1,0 +1,270 @@
+@mixin flexMid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(58, 58, 65);
+  display: flex;
+  justify-content: center;
+  background-image: url("/img/mountainDark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+.navBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  margin-top: 1rem;
+}
+
+.topHeader {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.meImgDiv {
+  @include flexMid();
+  margin-top: 20rem;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#meImg {
+  @include flexMid();
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  box-shadow: 0px 50px 100px 10px rgba(38, 2, 49, 0.63);
+}
+
+.navBtn {
+  width: 11rem;
+  height: 3rem;
+  margin-top: 0rem;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.4rem;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 200ms;
+    box-shadow: -3px 8px 18px 18px rgba(213, 109, 251, 0.137);
+  }
+}
+
+.meIntro {
+  color: rgba(255, 255, 255, 0.856);
+  margin-top: 40px;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  letter-spacing: 5px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+}
+
+#navbar {
+  @include flexMid();
+}
+
+.navBtnTop {
+  width: 11rem;
+  height: 3rem;
+  margin-top: 0rem;
+  background-color: rgba(0, 0, 0, 0.144);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.4rem;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 200ms;
+  }
+}
+
+.indivProj {
+  @include flexMid();
+  flex-direction: column;
+  margin: 3rem;
+  width: 30rem;
+}
+
+.projectsDiv {
+  @include flexMid();
+  flex-direction: row;
+}
+
+.projImg {
+  width: 30rem;
+  height: 30rem;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+
+  &:hover {
+    transform: scale(1.01);
+    transition: all 200ms;
+  }
+}
+
+.projTitle {
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+}
+
+.linkBtn {
+  background-color: rgba(7, 226, 255, 0.65);
+  color: white;
+  width: 10rem;
+  font-size: 1.5rem;
+  font-family: "Russo One", sans-serif;
+  margin: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+    transition: all 200ms;
+  }
+}
+
+.aboutMeImg {
+  width: 50rem;
+  height: 50rem;
+  margin-left: 3rem;
+  border-radius: 15px;
+  margin-top: -10rem;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+}
+
+.aboutMeDiv {
+  @include flexMid();
+  margin: 4rem;
+  flex-direction: row;
+}
+
+.oMeTextP {
+  color: white;
+  font-size: 30px;
+  width: 50rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+.oMe {
+  color: rgb(10, 253, 221);
+  margin-left: 11rem;
+  font-family: "Russo One", sans-serif;
+  font-size: 60px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}
+
+.list,
+.listsDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.languages {
+  margin: 2rem;
+}
+
+.title {
+  color: rgb(10, 253, 221);
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}
+
+.aboutText {
+  margin-left: 1rem;
+}
+
+.oMeTextP {
+  margin-left: 9rem;
+}
+
+.p {
+  margin-left: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  margin-top: 3rem;
+  flex-direction: row;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: rgba(236, 170, 236, 0.253);
+  flex-direction: column;
+  width: 20rem;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}
+
+.indivCont {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+}
+
+.gitBtn {
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 2rem;
+  width: 4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+    transition: all 200ms;
+  }
+}
+
+.tag {
+  color: rgb(10, 253, 221);
+  text-align: left;
+  margin: 30px;
+}
+
+.map {
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}

@@ -1,0 +1,378 @@
+body {
+  background-color: #3a3a41;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url("/img/mountainDark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.navBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 10rem;
+  margin-top: 1rem;
+}
+
+.topHeader {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.meImgDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#meImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 50px 100px 10px rgba(38, 2, 49, 0.63);
+  box-shadow: 0px 50px 100px 10px rgba(38, 2, 49, 0.63);
+}
+
+.navBtn {
+  width: 11rem;
+  height: 3rem;
+  margin-top: 0rem;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.4rem;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+  cursor: pointer;
+}
+
+.navBtn:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  -webkit-box-shadow: -3px 8px 18px 18px rgba(213, 109, 251, 0.137);
+  box-shadow: -3px 8px 18px 18px rgba(213, 109, 251, 0.137);
+}
+
+.meIntro {
+  color: rgba(255, 255, 255, 0.856);
+  margin-top: 40px;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  letter-spacing: 5px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+}
+
+#navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navBtnTop {
+  width: 11rem;
+  height: 3rem;
+  margin-top: 0rem;
+  background-color: rgba(0, 0, 0, 0.144);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.4rem;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+  cursor: pointer;
+}
+
+.navBtnTop:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.indivProj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 3rem;
+  width: 30rem;
+}
+
+.projectsDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.projImg {
+  width: 30rem;
+  height: 30rem;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+}
+
+.projImg:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.projTitle {
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+}
+
+.linkBtn {
+  background-color: rgba(7, 226, 255, 0.65);
+  color: white;
+  width: 10rem;
+  font-size: 1.5rem;
+  font-family: "Russo One", sans-serif;
+  margin: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.linkBtn:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.aboutMeImg {
+  width: 50rem;
+  height: 50rem;
+  margin-left: 3rem;
+  border-radius: 15px;
+  margin-top: -10rem;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+}
+
+.aboutMeDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 4rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.oMeTextP {
+  color: white;
+  font-size: 30px;
+  width: 50rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+.oMe {
+  color: #0afddd;
+  margin-left: 11rem;
+  font-family: "Russo One", sans-serif;
+  font-size: 60px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}
+
+.list,
+.listsDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.languages {
+  margin: 2rem;
+}
+
+.title {
+  color: #0afddd;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}
+
+.aboutText {
+  margin-left: 1rem;
+}
+
+.oMeTextP {
+  margin-left: 9rem;
+}
+
+.p {
+  margin-left: 2rem;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 2rem;
+  margin-top: 3rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: rgba(236, 170, 236, 0.253);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}
+
+.indivCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 10px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+}
+
+.gitBtn {
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 2rem;
+  width: 4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.gitBtn:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.tag {
+  color: #0afddd;
+  text-align: left;
+  margin: 30px;
+}
+
+.map {
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.116));
+}
+/*# sourceMappingURL=style.css.map */

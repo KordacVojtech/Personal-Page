@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap" rel="stylesheet">
+    <title>Vojtech Kordac - Projekty</title>
+</head>
+<body>
+    <div class="navBar" id="navBar">
+        <button class="navBtnTop" id="home">Domů</button>
+        <button class="navBtnTop" id="projects">Projekty</button>
+        <button class="navBtnTop" id="aboutMe">O mě</button>
+        <button class="navBtnTop" id="contact">Kontakt</button>
+    </div>
+    <div class="projectsDiv" id="projectsDiv">
+        <div id='weather' class="indivProj">
+                <img src="./img/weatherScreen.jpg" class="projImg">
+                <h2 class="projTitle">Aplikace na počasí s použitím API, JavaScript, HTML a SASS</h2>
+            <div class="linkBtnsDiv">
+                <button class="linkBtn" onclick="window.location.href = 'https://github.com/KordacVojtech/Weather-App-API'">GitHub</button>
+                <button class="linkBtn" onclick="window.location.href = 'https://kordacvojtech.github.io/Weather-App-API/'">Živý náhled</button>
+            </div>
+        </div>
+        <div id='ticTacToes' class="indivProj">
+            <img src="./img/ticScreen.jpg" class="projImg">
+            <h2 class="projTitle">Hra piškvorky, použití JavaScript, HTML a CSS</h2>
+            <div class="linkBtnsDiv">
+                <button class="linkBtn" onclick="window.location.href = 'https://github.com/KordacVojtech/TicTacToe'">GitHub</button>
+                <button class="linkBtn" onclick="window.location.href = 'https://kordacvojtech.github.io/TicTacToe/'">Živý náhled</button>
+            </div>
+        </div>
+        <div id='toDo' class="indivProj">
+            <img src="./img/todoScreen.jpg" class="projImg">
+            <h2 class="projTitle">To do list inspirovaný sticky notes</h2>
+            <div class="linkBtnsDiv">
+                <button class="linkBtn" onclick="window.location.href = 'https://github.com/KordacVojtech/To-do-list'">GitHub</button>
+                <button class="linkBtn" onclick="window.location.href = 'https://kordacvojtech.github.io/To-do-list/'">Živý náhled</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
